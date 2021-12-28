@@ -218,7 +218,7 @@ end
 
 local function lol()
     for _, player in pairs(game.Players:GetPlayers()) do
-        local studs = (player.Character.Torso.Position - game.Players.LocalPlayer.Character.Torso.Position).magnitude
+        local studs = (player.Character.PrimaryPart.Position - game.Players.LocalPlayer.Character.PrimaryPart.Position).magnitude
         if player.Name ~= game.Players.LocalPlayer.Name then
             if studs <= 100  then
                 Teleport()
