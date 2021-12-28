@@ -215,7 +215,7 @@ local function Teleport()
     end
 end
 -- player detector 
-
+--[[
 local function lol()
     for _, player in pairs(game.Players:GetPlayers()) do
         local studs = (player.Character.PrimaryPart.Position - game.Players.LocalPlayer.Character.PrimaryPart.Position).magnitude
@@ -230,7 +230,7 @@ while true do
     wait()
     lol()
 end
-
+]]--
 
 
 -- positions (storing)
